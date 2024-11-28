@@ -1,15 +1,26 @@
-body{
+body {
     font-family: "Sorts Mill Goudy", serif;
     font-style: italic;
     background: rgb(82, 4, 4);
     color: dodgerblue;
     justify-content: center;
     align-items: center;
-    height: 800;
-    margin: 0;
+    height: 1000;
+    font-size: 32px;
 }
 
-button{
+button {
     background: rgba(245, 96, 51, 0.973);
     padding-bottom: 5px;
+    color: drak green;
+}
+
+p {
+    display: flex;
+    border-bottom: 4px solid lightseagreen;
+}
+
+div button{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: purple;
 }
