@@ -1,0 +1,27 @@
+body {
+    font-family: "Sorts Mill Goudy", serif;
+    font-style: italic;
+    background: rgb(105, 5, 5);
+    color: rgb(2, 83, 165);
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+}
+
+button {
+    background: lightgray;
+    padding-bottom: 5px;
+    color: drak green;
+    font-size: 15px;
+}
+
+p {
+    font-size: 32px;
+    display: flex;
+    border-bottom: 4px solid lightseagreen;
+}
+
+div button {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: purple;
+}
